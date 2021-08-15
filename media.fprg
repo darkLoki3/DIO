@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tails"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-03 02:57:07 "/>
+        <attribute name="created" value="dGFpbHM7REVTS1RPUC01TDVRTEswOzIwMjEtMDgtMDM7IjAyOjAxOjIwICI7Mjc2Mg=="/>
+        <attribute name="edited" value="dGFpbHM7REVTS1RPUC01TDVRTEswOzIwMjEtMDgtMDM7IjAyOjU3OjA3ICI7MTsyODg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+    <function name="m&#233;dia" type="None" variable="m&#233;dia">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <declare name="nota3" type="Real" array="False" size=""/>
+            <declare name="nota4" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="Sa&#237;da; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

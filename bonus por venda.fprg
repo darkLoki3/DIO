@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tails"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-03 05:27:45 "/>
+        <attribute name="created" value="dGFpbHM7REVTS1RPUC01TDVRTEswOzIwMjEtMDgtMDM7IjAzOjM1OjAzICI7Mjc3MQ=="/>
+        <attribute name="edited" value="dGFpbHM7REVTS1RPUC01TDVRTEswOzIwMjEtMDgtMDM7IjA1OjI3OjQ1ICI7MTsyODg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abr, med" type="Real" array="False" size=""/>
+            <input variable="jan"/>
+            <input variable="fev"/>
+            <input variable="mar"/>
+            <input variable="abr"/>
+            <assign variable="med" expression="(jan+fev+mar+abr)/4"/>
+            <if expression="med &gt;= 5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; conseguiu atingir o valor suficiente para receber um bonus de 3%, caso se esfor&#231;e mais um pouco conseguir&#225; receber 10%.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; conseguiu atingir um valor de vendas o suficiente para receber um bonus de 10%. Continue se esfor&#231;ando&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
